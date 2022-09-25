@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>myproject</title>
+
+	<link rel="icon" href="/images/icon.png" sizes="96x96">
+	<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/css/treeView.css" />
+
+	<script src="/build/main.bundle.js" defer></script>
+</head>
+<body>
+		<div class="search">
+			<input type="text" id="myInput" placeholder="Search for names.." />
+			<button type="submit" id="myButton">search</button>
+		</div>	
+	<main id="appContainer">
+		Loading content...
+	</main>
+<p id="reponse"></p>
+
+<div>
+	<ul id="treeView">
+	<li><span class="caret">Parent</span>
+	  <ul class="nested">
+		<li>Code 1</li>
+		<li>Code 2</li>
+		<li><span class="caret">Enfant 1</span>
+		  <ul class="nested">
+			<li>code 3</li>
+			<li>code 4</li>
+			<li><span class="caret">Enfant 2</span>
+			  <ul class="nested">
+				<li>code 5</li>
+				<li>code 6</li>
+				<li>code 7</li>
+				<li>code 8</li>
+			  </ul>
+			</li>
+		  </ul>
+		</li>
+	  </ul>
+	</li>
+  </ul>
+</div>
+
+<footer></footer>
+
+
+
+
+
+</body>
+</html>
